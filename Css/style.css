@@ -9,15 +9,16 @@ body
 #cabecera
 {
     background: blanchedalmond;
+    color: blueviolet;
 }
 
 #container
 {
+    
     width: 80%;
     padding: 1em;
     text-align: center;
     border: 1px solid blanchedalmond;
     box-shadow: 1px 5px 23px 2px rgba(115,71,115,1) 
     margin: 0 auto;
-    color: green;
-}
+    color: green}
