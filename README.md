@@ -1,2 +1,2 @@
 # hyperblock
-Un blog increíble para el block de platzi
+Un blog increíble de terror
