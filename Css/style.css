@@ -1,24 +1,49 @@
-body
-{
-    color: deeppink;
-    text-align: center;
-    font-family: "times new roman";
-
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#cabecera
-{
-    background: blanchedalmond;
-    color: blueviolet;
+header {
+    background: url('space-background.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
 }
 
-#container
-{
-    
-    width: 80%;
-    padding: 1em;
+header h1 {
+    font-size: 3em;
+    color: #00ccff;
+    text-shadow: 0 0 10px #00ccff;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.historia {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
+}
+
+.historia h2 {
+    color: #00ccff;
+    text-shadow: 0 0 5px #00ccff;
+}
+
+.historia p {
+    line-height: 1.5;
+}
+
+footer {
     text-align: center;
-    border: 1px solid blanchedalmond;
-    box-shadow: 1px 5px 23px 2px rgba(115,71,115,1) 
-    margin: 0 auto;
-    color: green}
+    padding: 10px 0;
+    background-color: #111;
+    color: #00ccff;
+}
